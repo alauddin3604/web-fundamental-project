@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Get-It Done</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<ul>
@@ -12,9 +13,32 @@
 		<li><a href="contact.html">Contact</a></li>
 		<li><a href="#">About</a></li>
 	</ul>
-	<ul>
-		<li><a href="#">Check Out</a></li>
-	</ul>
 	<h1>Welcome To</h1>
+	<div class="main">
+		<form action="" method="post">
+			<div class="component">
+				<input type="checkbox" name="RAM" id=""> RAM
+				<select name="variant" id="">
+					<option value="1">1GB</option>
+					<option value="2">2GB</option>
+					<option value="4">4GB</option>
+				</select>
+				<br>
+				<img src="img/ram.jpg" alt="RAM" width="200" height="100">
+			</div>
+			<div class="component">
+				<input type="checkbox" name="ssd" id=""> SSD
+				<select name="ssd" id="">
+					<option value="120">120GB</option>
+					<option value="240">240GB</option>
+					<option value="480">480GB</option>
+				</select>
+				<br>
+				<img src="img/ssd.jpg" alt="SSD" width="200" height="100">
+			</div>
+			<input class="submit" type="submit" name="submit" value="Check Out">
+		</form>
+	</div>
+	
 </body>
 </html>

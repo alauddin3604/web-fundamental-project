@@ -1,0 +1,20 @@
+.main {
+	background-color: #d6d6d6;
+	margin-left: 3em;
+	margin-right: 3em;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.component {
+	margin-block-start: 2em;
+	border-block-end-style: dashed;
+}
+img {
+	margin: 10px;
+	border: 2px solid;
+}
+.submit {
+	float: right;
+	margin-top: 3em;
+}
