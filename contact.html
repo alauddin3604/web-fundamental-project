@@ -1,26 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contacts</title>
-	<style>
-		form {
-			margin-left: 5em;
-		}
-	</style>
+	<title>Contact Us</title>
 </head>
-<body>
+<body style="background-color:lightyellow;">
 	<ul>
 		<li><a href="index.html">Home</a></li>
+		<li><a href="company.html">Company Profile</a></li>
 		<li><a href="contact.html">Contact</a></li>
-		<li><a href="#">About</a></li>
+		<li><a href="about.html">About Us</a></li>
 	</ul>
 	<h3>Contact Us!</h3>
 	<p>If you encounter any problem, don't hesitate to contact us via <a href="mailto: support@compart.com.my">Email</a></p>
 	<div>
 		<h2>Or you can fill this form to report your problem.</h2>
-		<form action="">
+		<form action="index.html">
 			<label for="name">Name</label><br>
 			<input type="text" id="name"><br>
 			<br>
@@ -29,9 +25,10 @@
 			<br>
 			<label for="report">Report</label><br>
 			<textarea id="report" cols="30" rows="10" placeholder="Explain your problem here"></textarea><br><br>
-			<input type="submit" value="Submit Report">
+			<input type="submit" onclick="alert('Your report has been delivered. Kindly wait for our reply. Thank you.')" value="Submit Report">
 		</form>
 	</div>
 	<p>&copy; 2020 Com.Part. All rights reserved.</p>
+	
 </body>
 </html>

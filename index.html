@@ -4,37 +4,199 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Get-It Done</title>
-	<link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body style="background-color:lightyellow;">
 	<ul>
 		<li><a href="index.html">Home</a></li>
+		<li><a href="company.html">Company Profile</a></li>
 		<li><a href="contact.html">Contact</a></li>
-		<li><a href="#">About</a></li>
+		<li><a href="about.html">About Us</a></li>
 	</ul>
-	<h1>Welcome To <span style="color: red;">Com.Part</span> Shop. The best deal you can get here!</h1>
+	<h1 style="text-align: center;">Welcome To <span style="text-align: center; color: red;">Com.Part</span> Shop. The best deal you can get here!</h1>
 	<div class="main">
 		<p><strong>Tick the items you want to buy</strong></p>
 		<form action="checkout.html" method="post">
 			<div class="component">
-				<input type="checkbox" name="RAM" id=""> RAM
-				<select name="variant" id="">
-					<option value="1">1GB</option>
-					<option value="2">2GB</option>
-					<option value="4">4GB</option>
+				<input type="checkbox" name="RAM"> RANDOM ACCESS MEMORY (RAM)
+				<select name="variant">
+					<option value="2">2GB (RM 98.00)</option>
+					<option value="4">4GB (RM 109.00)</option>
+					<option value="4">8GB (RM 219.00)</option>
+					<option value="4">16GB (RM 329.00)</option>
+					<option value="4">32GB (RM 439.00)</option>
 				</select>
 				<br>
-				<img src="img/ram.jpg" alt="RAM" width="200" height="100">
+				<img src="img/ram1.jpg" alt="RAM" width="300" height="200">
+				<br>
+				<label>Quantity</label>
+				<select name="quantity-ram">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+				<dl>
+				<dt>G.SKILL GAMING RAM TRIDENT Z RGB DDR4-3000</dt>
+				<br>
+				<dd>Memory stick flagship storeSeries : Trident Z RGB</dd>
+				<dd>Memory Type    : DDR4</dd>	
+				<dd>Multi-Channel Kit : Dual Channel Kit</dd>
+				<dd>Tested Speed   : 3000MHz</dd>
+				<dd>Tested Latency : 16-18-18-38</dd>
+				<dd>Tested Voltage : 1.35v</dd>
+				<dd>SPD Speed      : 2133MHz</dd>
+				<dd>SPD Voltage    : 1.20v</dd>
+				<dd>Error Checking : Non-ECC</dd>
+				<dd>Fan lncluded   : No	</dd>
+				<dd>Height         : 44 mm / 1.73 inch</dd>
+				<dd>Warranty       : Limited Lifetime</dd>
+				<dd>Features : Intel XMP 2.0 (Extreme Memory Profile) Ready</dd>
+				</dl>
 			</div>
 			<div class="component">
-				<input type="checkbox" name="ssd" id=""> SSD
+				<input type="checkbox" name="ssd" id=""> SOLID STATE DRIVE (SSD)
 				<select name="ssd" id="">
-					<option value="120">120GB</option>
-					<option value="240">240GB</option>
-					<option value="480">480GB</option>
+					<option value="256">256GB (RM 275.00)</option>
+					<option value="512">512GB (RM 345.00)</option>
+					<option value="1tb">1TB (RM 589.00)</option>
 				</select>
 				<br>
-				<img src="img/ssd.jpg" alt="SSD" width="200" height="100">
+				<img src="img/ssd1.jpg" alt="SSD" width="200" height="200">
+				<br>
+				<label>Quantity</label>
+				<select name="quantity-ssd">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+				<dl>
+				<dt>ADATA XPG SX8200 PRO M.2 PCIE GEN3x4 NVMe SSD</dt>
+				<br>
+				<dd>ADATA XPG SX8200 Pro PCIe Gen3x4 M.2 2280 Solid State Drive</dd>
+				<dd>LEVEL UP WITH INCREDIBLE PERFORMANCE</dd>
+				<dd>Capacity	:256GB / 512GB / 1TB</dd>
+				<dd>Form Factor	:M.2 2280</dd>
+				<dd>NAND Flash	:3D TLC </dd>
+				<dd>Controller	:SMI</dd>
+				<dd>Dimensions: (L x W x H) 	22 x 80 x 3.5 mm</dd>
+				<dd>Weight	:8g / 0.28oz</dd>
+				<dd>Interface			: PCIe Gen3x4</dd>
+				<dd>Performance(Max)	: Read 3500MB/s , Write 3000MB/s Maximum 4K random read/write IOPS : up to 390K/380K</dd>
+				<dd>Operating temperature:	0°C - 70°C</dd>
+				<dd>Warranty:	5 years</dd>
+				</dl>
+				
+			</div>
+			<div class="component">
+				<input type="checkbox" name="mobo" id=""> MOTHERBOARD
+				<select name="mobo" id="">
+					<option value="1">ATX (RM 299.00)</option>
+					<option value="2">M-ATX (RM 359.00)</option>
+					<option value="3">Mini-Atx (RM 149.00)</option>
+				</select>
+				<br>
+				<img src="img/mobo.png" alt="MOBO" width="300" height="200">
+				<br>
+				<label>Quantity</label>
+				<select name="quantity-mobo">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+				<dl>
+				<dt>ASROCK B450M STEEL LEGEND AM4 AMD Motherboard</dt>
+				<br>
+				<dd>AMD AM4 Socketate Drive</dd>
+				<dd>Supports DDR4 3533+ (OC)</dd>
+				<dd>1 PCIe 3.0 x16, 1 PCIe 2.0 x16, 1 PCIe 2.0 x1</dd>
+				<dd>AMD Quad CrossFireX™	</dd>
+				<dd>Graphics Output: DisplayPort, HDMI</dd>
+				<dd>7.1 CH HD Audio (Realtek ALC892 Audio Codec), Nichicon Fine Gold Series Audio Caps</dd>
+				<dd>4 SATA3, 1 Ultra M.2 (PCIe Gen3 x4), 1 M.2 (SATA3)</dd>
+				<dd>2 USB 3.1 Gen2 (Rear Type-A+C)</dd>
+				<dd>6 USB 3.1 Gen1 (2 Front, 4 Rear)</dd>
+				<dd>Realtek Gigabit LAN</dd>
+				</dl>
+				
+			</div>
+			<div class="component">
+				<input type="checkbox" name="cpu" id=""> CPU
+				<select name="cpu" id="">
+					<option value="1">Ryzen 5 3600 (RM778.00)</option>
+					<option value="2">Ryzen 5 3600X (RM1,050.00)</option>
+					<option value="3">Ryzen 7 3700X (RM1,300.00)</option>
+					<option value="3">Ryzen 7 3800X (RM1538.00)</option>
+					<option value="3">Ryzen 9 3900X (RM1988.00)</option>
+					<option value="3">Ryzen 9 3950X (RM3198.00)</option>
+				</select>
+				<br>
+				<img src="img/ryzen53600.jpg" alt="SSD" width="300" height="200">
+				<img src="img/ryzen73700x.jpg" alt="SSD" width="250" height="200">
+				<img src="img/ryzen93900x.jpg" alt="SSD" width="300" height="200">
+				<br>
+				<label>Quantity</label>
+				<select name="quantity-cpu">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+				<dl>
+				<dt>Ryzen 5 3600</dt>
+				<br>
+				<dd>AM4 - CPU Socket</dd>
+				<dd>	3.6GHz - Base Clock</dd>
+				<dd>	4.1GHz - Boost Clock</dd>
+				<dd>	6-Cores / /12-Threads</dd>
+				<br>
+				<dt>Ryzen 5 3600X</dt>
+				<br>
+				<dd>AM4 - CPU Socket</dd>
+				<dd>3.6GHz - Base Clock</dd>
+				<dd>4.1GHz - Boost Clock</dd>
+				<dd>6-Cores / /12-Threads</dd>
+				<br>
+				<dt>Ryzen 7 3700X</dt>
+				<br>
+				<dd>AM4 - CPU Socket</dd>
+				<dd>3.6GHz - Base Clock</dd>
+				<dd>4.4GHz - Boost Clock</dd>
+				<dd>8-Cores / /16-Threads</dd>
+				<br>
+				<dt>Ryzen 7 3800X</dt>
+				<br>
+				<dd>AM4 - CPU Socket</dd>
+				<dd>3.9GHz - Base Clock</dd>
+				<dd>4.5GHz - Boost Clock</dd>
+				<dd>8-Cores / /16-Threads</dd>
+				<br>
+				<dt>AMD Ryzen™ 9 3900X</dt>
+				<br>
+				<dd>Graphics Model: Discrete Graphics Card Required</dd>
+				<dd>12 CPU Cores</dd>
+				<dd>24 Threads</dd>
+				<dd>Max Boost Clock Up to 4.6GHz</dd>
+				<dd>Base Clock: 3.8GHz</dd>
+				<dd>Thermal Solution (PIB): Wraith Prism with RGB LED</dd>
+				<dd>Default TDP / TDP: 105W</dd>
+				<br>
+				<dt>AMD Ryzen™ 9 3950X</dt>
+				<br>
+				<dd>Graphics Model: Discrete Graphics Card Required</dd>
+				<dd># of CPU Cores: 16</dd>
+				<dd># of Threads: 32</dd>
+				<dd>Max Boost Clock  Up to 4.7GHz</dd>
+				<dd>Base Clock: 3.5GHz</dd>
+				<dd>Thermal Solution (PIB): Cooler Not Included, Liquid Cooling Recommended</dd>
+				<dd>Default TDP / TDP: 105W</dd>
+				</dl>
+				
 			</div>
 			<button class="submit" type="submit">Check Out</button>
 		</form>
